@@ -100,7 +100,7 @@ html {
 #slider {
     position: relative;
     margin-top: var(--header-height);
-    background: url('/asset/image/sliderchicago.jpg') top center /cover no-repeat;
+    background: url('/theband-exercise/asset/image/sliderchicago.jpg') top center /cover no-repeat;
     padding-top: 50%;
 }
 #slider .text-content {
@@ -216,7 +216,7 @@ html {
 }
 /* .location .location-imgs {
     padding-top: 75%;
-    background: url('/asset/image/picturenewyork.jpg') top / contain no-repeat;
+    background: url('/theband-exercise/asset/image/picturenewyork.jpg') top / contain no-repeat;
 } */
 /* .location .location-imgs:hover {
     opacity: 0.6;
