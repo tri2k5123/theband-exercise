@@ -1,0 +1,42 @@
+/* ---------- từ mobile trở xuống --------------- */ 
+@media (max-width: 739px) {
+    .contact-method .contact-mail {
+        margin-top: 8px;
+    }
+    #header .header-search {
+        display: none;
+    }
+    #header .nav {
+        flex-direction: column;
+    }
+    input:checked ~ #header {
+        height: calc(var(--header-height)*5);
+    }
+    #header .nav li:last-child {
+        display: none;
+    }
+    .nav > li > a {
+        display: block;
+    }
+}
+/* từ moblie trở lên */
+@media (min-width: 740px) {
+    #header .header-menu {
+        display: none;
+    }
+    #header .nav li:nth-child(5) {
+        display: none;
+    }
+}
+/* --------------- từ tablet tới pc ------------------- */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* từ tablet trở xuống */
+@media (max-width: 1023px) {
+
+}
+/* ----------------- từ pc trở lên ----------------------- */
+@media (min-width: 1024px) {
+    
+}
